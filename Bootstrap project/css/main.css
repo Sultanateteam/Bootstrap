@@ -1,0 +1,140 @@
+.container{
+    max-width: 1140px;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Nav section */
+
+
+.h-title{
+    font-weight: 800;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: #383B61;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.info-p{
+    font-weight: 300;
+    font-size: 17px;
+    color: #818198;
+    margin-bottom: 0px;
+}
+
+.border{
+    border: 5px solid white !important;
+}
+/* Navbar section */
+.navbar-section{
+    z-index: 999999;
+}
+/* Product section */
+
+.product-section{
+    background-color: #f0f5f9;
+}
+
+/* connect section */
+
+.connect-section-card{
+    border: 10px solid white;
+}
+
+.btn-blue{
+    padding: 4px 28px;
+    border: 2px solid;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-green{
+    padding: 5px 28px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product-section .container .row .col h6{
+    margin-top: 20px;
+    color: #797979;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.bg-card-1{
+    background-color: #fff2e5;
+}
+
+.bg-card-2{
+    background-color: #f8f9fa;
+}
+
+.bg-card-3{
+    background-color: #f0f5f9;
+}
+
+.paragraf{
+    color: #6A7076;
+    font-weight: 300;
+    width: 80%;
+}
+
+.data-icon{
+    color: green;
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    position: relative;
+}
+
+.data-icon::after{
+    content: '';
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(138, 228, 138, 0.442);
+    border-radius: 50%;
+}
+
+.data-check-row{
+    row-gap: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6A7076;
+    font-weight: 500;
+}
+
+
+.carusel-info{
+    display: inline-block;
+    top: 0px;
+}
+
+.container-register > p{
+    display: flex;
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.container-register input{
+    border-radius: 0px; 
+}
+
+.container-register button{
+    border-radius: 0px; 
+}
+
+footer p{
+    letter-spacing: 3px;
+}
